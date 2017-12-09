@@ -48,7 +48,9 @@ img:hover {
     li{
        width: 50%;
     }
-    
+    img:hover{
+        transform: scale(1.3)
+    }
 }
 
 @media screen and (min-width: 1201px){
@@ -57,70 +59,4 @@ img:hover {
     }
     
 }
-/*li {
-    margin: 1em auto;
-    width: 90%;
-    max-width: 90%;
-}
-picture {
-    max-height: 90%;
-    
-}
 
-img {
-    max-width: 90%;
-    transition: all .2s;
-    display: block;
-    margin: .5em auto;
-}
-
-
-
-@media only screen and (max-width: 1200px) and (min-width: 600px)  {
-    width: 50%;
-    width: 50%;
-    
-}
-
-/*edia screen and (min-width: 1201px){
-    li{
-        width: 25%;
-    }
-}
-
-@media screen and (min-width: 600px:){
-    li {
-        width: 50%;
-        float: left;
-        
-    }
-
-}
-
-
-/*li{
-    width: 50%
-    }}
-/*@media screen and min-width: 1200px) {
-    li {
-        width: 25%;
-    }
-    img: hover {
-    transform: rotate(15deg);
-    z-index: 20;
-}
-@media screen and (min-width: 600px) {
-    li {
-        width: 50%;
-    }
-    img: hover {
-    transform: rotate(15deg);
-    z-index: 20;
-}
-
-}
-
-@media screen and (max-width: 600px) {
-    li {
-        width: 100%;
-    }
