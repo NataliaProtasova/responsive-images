@@ -22,7 +22,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     line-height: 1.5;
-}
+   }
 
 ul {
     list-style: none;
@@ -37,6 +37,7 @@ li {
 img {
     width: 90%;
     transition: transform 0.5s ease-in;
+    border: 5px black solid;
      
 }
 img:hover {
