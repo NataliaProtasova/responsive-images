@@ -19,7 +19,7 @@ Yinan Chen - https://500px.com/webmaster85 (Links to an external site.)Links to 
 Fahim Akhter - https://500px.com/fahimakhter (Links to an external site.)Links to an external site. 
 ***************************************************/
 
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -33,21 +33,38 @@ ul {
 li {
     float: left;
     margin-top: 2.5%;
-    
-}
 
+}
+picture,
 img {
-    width: 90%
+    width: 90%;
+    transition: 0.5s ease-in;
 }
 
-@media screen and (min-width: 600px){
+img: hover {
+    transform: rotate(15deg);
+    z-index: 20;
+}
+@media screen and (max-width: 600px) {
+    li {
+        width: 100%;
+    }
+    img: hover {
+    transform: rotate(15deg);
+    z-index: 20;
+}
+@media screen and (max-width: 1200px) {
     li {
         width: 50%;
     }
-    
+    img: hover {
+    transform: rotate(15deg);
+    z-index: 20;
 }
-@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 1200px) {
     li {
         width: 25%;
     }
-    
