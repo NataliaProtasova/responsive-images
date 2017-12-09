@@ -1,0 +1,53 @@
+/***************************************************
+Images
+
+Download these images - raw-images.zipView in a new window 
+Each image needs to be re-saved and optimized for the web using either 96 or 72 dpi and saved at medium to high quality using a web optimized format
+Crop and convert each image into three sizes:
+Large: 800px width x 600px height - to be used when the page width is greater than 1500px.
+Medium: 600px width x 450px height - to be used when the page width is between 700px and 1500px
+Small: 400px width x 300px height - to be used when the page width is less than 700px
+These sizes should be used in your <source> elements.
+Use the medium size as the default for your <img> elements. 
+All your <picture> and <img> elements should be given a default max-width of 90% so that they can resize to fit their container.
+
+Image Attribution
+Be sure to add the attribution to your images as a comment in either your CSS or HTML.
+All images used belong to:
+Markus Spiske - https://500px.com/markusspiske (Links to an external site.)Links to an external site. 
+Yinan Chen - https://500px.com/webmaster85 (Links to an external site.)Links to an external site. 
+Fahim Akhter - https://500px.com/fahimakhter (Links to an external site.)Links to an external site. 
+***************************************************/
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-top: 2.5%;
+    
+}
+
+img {
+    width: 90%
+}
+
+@media screen and (min-width: 600px){
+    li {
+        width: 50%;
+    }
+    
+}
+@media screen and (min-width: 600px){
+    li {
+        width: 25%;
+    }
+    
